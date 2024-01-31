@@ -1,0 +1,298 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    background-color:black;
+    color:#fff;
+}
+
+header{
+    width:80%;
+    margin:0 auto;
+
+}
+header nav{
+     width:100%;
+     height:110px;
+
+}
+nav .nav-o{
+      float:left;
+}
+.nav-o h3 {
+        margin-top:15px;
+        margin-left:10px;
+        
+}
+.nav-o a{
+     text-decoration: none;
+     color:black;
+}
+.nav-o a:hover{
+       color: yellow;
+}
+.fa-user-o{
+     font-size:25px;
+}
+nav ul{
+    float:left;
+    margin-left:200px;
+    color:lightgrey;
+
+}
+nav ul a{
+     float:right;
+     color:lightgray;
+}
+nav ul a:hover{
+      color:yellow;
+}
+nav ul li {
+       float:right;
+       list-style: none;
+       margin-left:30px;
+   }
+
+nav .third {
+      float:right;
+      margin-top:10px;
+      font-size:20px;
+      
+}
+.third a{
+      color:#fff;
+}
+.fa-moon-o{
+      font-size:25px;
+}
+
+.box1{
+    clear:right;
+    float:left;
+    width:40%;
+    margin-left:20px;
+}
+.box1 h6{
+    margin-bottom:0;
+    margin-left:20px;
+}
+.box1 p{
+      font-size:12px;
+      line-height:20px;
+      color:grey;
+}
+.box1 button {
+     width:150px;
+     height:30px;
+     border-radius:30px;  
+     border:none;  
+}
+.black{
+     background-color: black;
+     color:#fff;
+}
+.img img{
+    float:right;
+    width:40%;
+    margin-right:40px;
+}
+
+
+/* projects starts */
+Section{
+      clear:both;
+      width:80%;
+      margin:0 auto;
+      text-align:center;
+}
+section h1{
+     font-size:25px;
+}
+
+/* Work starts */
+
+.work {
+     width:80%;
+     margin:0 auto;
+     padding:30px;
+     text-align: left;
+}
+.left{
+     width:40%;
+     float:left;
+     margin-left:30px;
+     
+     
+}
+.left ul li{
+     border-bottom: 1px solid lightgrey;
+
+}
+.Right{
+     width:40%;
+     float:left;
+     margin-left:60px;
+     
+}
+
+/* end section starts */
+
+.end-section{
+      clear:both;
+      width:80%;
+      margin:0 auto;
+      text-align:center;
+      padding:40px;
+      
+}
+.end-section form input {
+      width:300px;
+      height:25px;
+}
+.end-section form textarea{
+           width:610px;
+           height:100px;
+}
+.end-section form button{
+       width:160px;
+       height:50px;
+       background-color: yellow;
+       color:#fff;
+       border-radius:30px;
+       border:none;
+       margin-left:45%;
+}
+
+/* footer starts */
+
+footer{
+    text-align:center;
+    color:grey;
+    padding:30px;
+}
+
+
+/* Media queries starts */
+
+@media only screen and (max-width:5000px){
+
+     .box1 {
+           width:45%; 
+     }
+     .box1 p {
+            font-size:10px;
+     }
+     
+}
+
+@media only screen and (max-width:3575px){
+     
+     nav ul{
+           float:left;
+           margin-left:0px;
+           
+      
+      }
+     
+
+     nav .third {
+           font-size:18px;
+           float:right;
+           margin-left:120px;
+          
+         }
+
+}
+
+
+@media only screen and (max-width:800px){
+
+     header{
+             width:80%;
+             
+     }
+     header nav{
+          
+           height:70px;
+     
+     }
+
+     nav .nav-o{
+           float:left;
+           font-size:12px;
+    }
+     nav ul{
+         float:left;
+         margin-left:0px;
+         font-size:13px;
+         margin-top:20px;
+         font-weight:800;
+         color:grey;
+      }
+    nav ul li {
+         float:left;
+         list-style:none;
+         margin-left:10px;
+    }
+
+     nav .third {
+         display:none;
+       }
+
+     .box1{
+          
+           width:100%;
+           margin-left:0px;
+          
+      }
+      .img img{
+           float:right;
+           width:100%;
+           margin-right:0px;
+           
+      }
+      section{
+             padding:40px;
+      }
+     section img{
+              width:100%;
+     }
+     section h1{
+             font-size:20px;
+     }
+
+     .left{
+           width:100%;
+           margin-left:0px;
+          
+           
+     }
+     .Right{
+            width:100%;
+            margin-left:0px;
+     }
+     .end-section{
+           
+           width:80%;
+           font-size:10px;
+          
+     }
+    .end-section form input {
+          width:80%;
+          margin-top:10px;
+          height:25px;
+    }
+    .end-section form textarea{
+            width:80%;
+            height:100px;
+   }
+   .end-section form button{
+     width:100px;
+     height:40px;
+   }
+   footer{
+       font-size:15px;
+}
+
+
+}
